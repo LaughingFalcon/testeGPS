@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+	<StackLayout Orientation="Vertical">
+		<Button Text="Testar GPS" Clicked="botaoTestes"/>
+		<Button Text="Obter posição" Clicked="botaoPosicao"/>
+		<Label Text="Latitude" TextColor="Green" FontSize="30"/>
+		<Label x:Name="lblLatitude" FontSize:"50"/>
+		<Label Text="Longitude" TextColor="Green" FontSize="30"/>
+		<Label x:Name="lblLongitude" FontSize:"50"/>
+
+	</StackLayout>
+
+
+</RelativeLayout>
