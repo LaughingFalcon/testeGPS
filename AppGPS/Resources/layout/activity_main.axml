@@ -6,12 +6,17 @@
     android:layout_height="match_parent">
 
 	<StackLayout Orientation="Vertical">
-		<Button Text="Testar GPS" Clicked="botaoTestes"/>
-		<Button Text="Obter posição" Clicked="botaoPosicao"/>
-		<Label Text="Latitude" TextColor="Green" FontSize="30"/>
-		<Label x:Name="lblLatitude" FontSize:"50"/>
-		<Label Text="Longitude" TextColor="Green" FontSize="30"/>
-		<Label x:Name="lblLongitude" FontSize:"50"/>
+		
+		<Button android:text="Testar GPS" 
+				android:id="@+id/testarGps"	/>
+
+		<Button android:text="Obter posição" 
+				android:id="@+id/obterPosicao"/>
+
+		<Label android:text="Latitude" TextColor="Green" FontSize="30"/>
+		<Label android:name="lblLatitude" FontSize:"50"/>
+		<Label android:text="Longitude" TextColor="Green" FontSize="30"/>
+		<Label android:name="lblLongitude" FontSize:"50"/>
 
 	</StackLayout>
 
