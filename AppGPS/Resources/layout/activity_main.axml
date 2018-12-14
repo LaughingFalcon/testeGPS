@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -13,12 +13,10 @@
 		<Button android:text="Obter posição" 
 				android:id="@+id/obterPosicao"/>
 
-		<Label android:text="Latitude" TextColor="Green" FontSize="30"/>
-		<Label android:name="lblLatitude" FontSize:"50"/>
-		<Label android:text="Longitude" TextColor="Green" FontSize="30"/>
-		<Label android:name="lblLongitude" FontSize:"50"/>
+		<Label android:text="Latitude" />
+		<Label android:id="@+id/latitude" />
 
+		<Label android:text="Longitude" />
+		<Label android:id="@+id/longitude" />
 	</StackLayout>
-
-
-</RelativeLayout>
+</LinearLayout>
